@@ -3,12 +3,5 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  k8s.gcr.io/ingress-nginx/controller: rizhiyi/ingress-nginx-controller
-  # kubernetes image
-  k8s.gcr.io/kube-apiserver: rizhiyi/kube-apiserver
-  k8s.gcr.io/kube-controller-manager: rizhiyi/kube-controller-manager
-  k8s.gcr.io/kube-scheduler: rizhiyi/kube-scheduler
-  k8s.gcr.io/kube-proxy: rizhiyi/kube-proxy
-  k8s.gcr.io/pause: rizhiyi/pause
-  k8s.gcr.io/etcd: rizhiyi/etcd
-  coredns/coredns: rizhiyi/coredns
+  k8s.gcr.io/ingress-nginx/controller: registry.cn-beijing.aliyuncs.com/rizhiyi/ingress-nginx-controller
+
