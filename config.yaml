@@ -1,0 +1,14 @@
+auth:
+  registry.cn-beijing.aliyuncs.com:
+    username: USERNAME
+    password: PASSWORD
+images:
+  k8s.gcr.io/ingress-nginx/controller: google_containers/ingress-nginx-controller
+  # kubernetes image
+  k8s.gcr.io/kube-apiserver: google_containers/kube-apiserver
+  k8s.gcr.io/kube-controller-manager: google_containers/kube-controller-manager
+  k8s.gcr.io/kube-scheduler: google_containers/kube-scheduler
+  k8s.gcr.io/kube-proxy: google_containers/kube-proxy
+  k8s.gcr.io/pause: google_containers/pause
+  k8s.gcr.io/etcd: google_containers/etcd
+  coredns/coredns: google_containers/coredns
