@@ -3,4 +3,4 @@ auth:
     username: USERNAME
     password: PASSWORD
 images:
-  k8s.gcr.io/v2/ingress-nginx/controller: registry.cn-beijing.aliyuncs.com/rizhiyi/ingress-nginx-controller
+  k8s.gcr.io/v2/ingress-nginx/controller/manifests/v1.2.1: registry.cn-beijing.aliyuncs.com/rizhiyi/ingress-nginx-controller
